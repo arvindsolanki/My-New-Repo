@@ -28,12 +28,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    
     private void initView() {
         btnSimpleNotification = (Button) findViewById(R.id.btnSimpleNotification);
         btnSimpleNotification.setOnClickListener(this);
         checkboxSticky = (CheckBox) findViewById(R.id.checkboxSticky);
     }
 
+    /**
+    * show notificaiton 
+    **/
     private void showSimpleNotification(boolean b) {
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
         mBuilder.setSmallIcon(R.mipmap.ic_launcher);

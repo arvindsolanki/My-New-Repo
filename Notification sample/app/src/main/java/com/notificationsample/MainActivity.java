@@ -14,6 +14,8 @@ import android.widget.CheckBox;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button btnSimpleNotification;
+
+    //notificaiton id
     private final int SIMPLE_NOTIFICATION_ID = 10;
     private CheckBox checkboxSticky;
 
